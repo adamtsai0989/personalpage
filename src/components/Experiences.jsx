@@ -3,10 +3,10 @@ import Exp from "./markdowndocs/Experiences.md";
 
 function Experiences() {
   const customReactComponents = {
-    h1: ({ node, ...props }) => <h1 style={{ color: "gray" }} {...props} />,
-    h2: ({ node, ...props }) => <h2 style={{ color: "gray" }} {...props} />,
-    strong: ({ node, ...props }) => <strong style={{ color: "gray" }} {...props} />,
-    a: ({ node, ...props }) => <a style={{ color: "blue" }} {...props} />,
+    h1: ({ ...props }) => <h1 style={{ color: "gray" }} {...props} />,
+    h2: ({ ...props }) => <h2 style={{ color: "gray" }} {...props} />,
+    strong: ({ ...props }) => <strong style={{ color: "gray" }} {...props} />,
+    a: ({ ...props }) => <a style={{ color: "blue" }} {...props} />,
   };
   return (
     <div className="prose dark:text-white">

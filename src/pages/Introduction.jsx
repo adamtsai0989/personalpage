@@ -11,8 +11,8 @@ function Introduction() {
   const handleOpenModal = () => setIsModalOpen(!isModalOpen);
 
   const customReactComponents = {
-    h1: ({ node, ...props }) => <h1 style={{ color: "gray" }} {...props} />,
-    a: ({ node, ...props }) => <a style={{ color: "blue" }} {...props} />,
+    h1: ({ ...props }) => <h1 style={{ color: "gray" }} {...props} />,
+    a: ({ ...props }) => <a style={{ color: "blue" }} {...props} />,
   };
   return (
     <div>
