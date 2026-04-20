@@ -1,10 +1,10 @@
 # Personal Portfolio Page
 
-A personal portfolio website built to demonstrate various frontend technologies and React concepts. The site showcases past projects, provides a brief introduction, displays work experiences via a modal, and includes a contact form — all within a multi-page SPA with dark mode support.
+A personal portfolio website built to demonstrate various frontend technologies and React concepts. The site showcases some of my past projects, a brief introduction, work experiences, and a contact form to reach me by email.
 
 ## Background
 
-This project was created as a hands-on demonstration of commonly used React patterns and frontend tooling. Rather than a static page, it puts several concepts in practice together: client-side routing, component-driven UI, markdown rendering, third-party email integration, icon libraries, dark/light theming, and a responsive Tailwind CSS layout.
+This project was created as a hands-on demonstration of commonly used React patterns and frontend tooling. It puts several concepts in practice together: client-side routing, component-driven UI, markdown rendering, third-party email integration, icon libraries, dark/light theme switcher, and a responsive Tailwind CSS layout.
 
 ## Technologies
 
@@ -25,11 +25,11 @@ This project was created as a hands-on demonstration of commonly used React patt
 - **Multi-page routing** — separate pages for Home, Projects, Contact, Markdown demo, and Introduction, powered by React Router
 - **Project showcase** — clickable image grid linking to live deployed React projects (reservation app, flashcard app, decoder app, recipe app)
 - **Introduction page** — profile photo and bio rendered from a Markdown file with custom-styled components
-- **Experience modal** — work experience details shown in an overlay modal triggered by a button
-- **Contact form** — sends email directly via EmailJS with name, email, subject, and message fields
+- **Experience** — work experience details shown in an overlay modal
+- **Contact form** — sends email directly via EmailJS with name, email, subject, and message
 - **Dark / light mode toggle** — theme persisted to `localStorage`, applied via Tailwind's `dark` class
-- **Markdown page** — standalone page that renders a `.md` file to demonstrate `react-markdown`
-- **Social icons** — React Icons used to display links on the contact page
+- **Markdown file rendering** — this component renders a `.md` file to demonstrate `react-markdown`
+- **React icons** — React icons used to display links on the contact page
 
 ## Installation
 
