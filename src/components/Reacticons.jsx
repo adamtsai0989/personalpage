@@ -6,7 +6,7 @@ function Reacticons() {
       <div
         className="hover:opacity-50"
         onClick={() => {
-          window.open("https://github.com/adam780930");
+          window.open("https://github.com/adamtsai0989");
         }}
       >
         <FaGithub />
